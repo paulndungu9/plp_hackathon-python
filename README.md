@@ -13,12 +13,12 @@ print("day:", calendar.day_abbr[day_of_week.weekday()])
 #using if statements to get bus fare
 day_of_week=calendar.day_name[day_of_week.weekday()]
 fare = [60,80,100]
-if day_of_week==[5]:
+if day_of_week==[6]:
     print("fare:",str(60))
 elif day_of_week==[0]:
     print("fare:",str(80))
 else:
-    print(day_of_week:="fare:",str(100))
+    print("fare:", str(100))
 
 
 #painter job/tax 
@@ -36,7 +36,7 @@ print(total:=(wall_as_int/115)*8*20+(wall_as_int/115)*price_as_int)
 books_as_int=int(float())
 points_as_int=int(float())
 if books_as_int==0:
-    print("points=",+str(0))
+    print("points="+str(0))
 elif books_as_int==1:
     print("points="+str(6))
 elif books_as_int==2:
@@ -93,10 +93,10 @@ unlock(commands)
 
 
 #nutrion diet manager  calory calc
-fat_as_int=int(float(5))
-carb_as_int=int(float(7))
+fat_as_int=int(float())
+carb_as_int=int(float())
 print(cal_fat:=fat_as_int*9)
-print(cal_carb:=carb_as_int)
+print(cal_carb:=carb_as_int*4)
 
 
 
